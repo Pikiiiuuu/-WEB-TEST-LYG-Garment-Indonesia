@@ -10,8 +10,9 @@ class Sewing extends CI_Controller {
 	}
 	//creating sewing controller for displayng sewing list data
 	public function index()
-	{
-		$sewing = [];
+	{	
+		//get sewing data rom model
+		$sewing = $this->M_Sewing->listing();
 
 		$data = array(	'title'			=> 'Sewing List Data',
 						'sewing'		=> $sewing,
