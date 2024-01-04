@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-
+//configuring database with Local SQL Server
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'LAPTOP-KN7ILVIJ\SQLEXPRESS',
