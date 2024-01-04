@@ -1,15 +1,15 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="<?php echo base_url('dashboarrd') ?>" class="logo" style="background-color: #4F7942">
+    <a href="<?php echo base_url('dashboarrd') ?>" class="logo" style="background-color: grey">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>LYG</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>LYG </b>Indone sia</span>
+      <span class="logo-lg"><b>LYG </b>Indonesia</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top" style="background-color: #4F7942">
+    <nav class="navbar navbar-static-top" style="background-color: grey">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="background-color: #4F7942">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="background-color: grey">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
