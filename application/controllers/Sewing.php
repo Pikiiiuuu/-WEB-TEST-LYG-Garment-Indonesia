@@ -8,7 +8,7 @@ class Sewing extends CI_Controller {
 		$this->load->model('M_Sewing');
 		$this->load->helper('url');
 	}
-
+	//creating sewing controller for displayng sewing list data
 	public function index()
 	{
 		$sewing = [];
